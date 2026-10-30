@@ -1,6 +1,5 @@
 package t4;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Ej10 {
@@ -17,8 +16,9 @@ public class Ej10 {
 				int caraAleatoria = (new Random()).nextInt(numeroDeCaras) + 1;
 				frecuencias[caraAleatoria] ++;
 			}
-			
-			System.out.println(Arrays.toString(frecuencias));
+			for (int i=1 ; i<=numeroDeCaras ; i++ ) {
+				System.out.println( "Cara " +i + " " + frecuencias[i] +"/"+numeroDeTiradas + "\t\t"+ ((frecuencias[i]/(float)numeroDeTiradas)*100) + "%");
+			}
 		}
 	}
 }
