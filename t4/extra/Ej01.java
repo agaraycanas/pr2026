@@ -1,7 +1,6 @@
 package t4.extra;
 
 public class Ej01 {
-
 	/**
 	 * Mostrar todos los datos de los argumentos de entrada precedidos por la
 	 * palabra "Argumento <N>" donde N empieza valiendo 1 Y se va incrementando para
@@ -23,5 +22,4 @@ public class Ej01 {
 			}
 		}
 	}
-
 }
