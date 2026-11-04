@@ -27,8 +27,8 @@ public class Ej13 {
 	}
 	
 	public static int[][] sumar(int[][] m1 , int[][] m2) {
-		int filas = m1.length; // Hubiera valido m2.length
-		int columnas = m1[0].length;
+		int filas 		= m1.length; // Hubiera valido m2.length
+		int columnas 	= m1[0].length;
 		int[][] solucion = new int[filas][columnas];
 		for (int i=0;i<filas;i++) {
 			for (int j=0;j<columnas;j++) {
