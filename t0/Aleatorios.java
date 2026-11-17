@@ -10,4 +10,6 @@ public class Aleatorios {
 			System.out.println(aleatorio + " ");
 		}
 	}
+	
+
 }
